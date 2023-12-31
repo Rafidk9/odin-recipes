@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'RustlerBarter';
+    font-family: 'WildHazelnut';
     src: url('Fonts/WildHazelnut/Wild Hazelnut.ttf')format('truetype');
 }
 
 body {
-    font-family:'RustlerBarter','Bungee Spice', sans-serif;
+    font-family:'WildHazelnut','Bungee Spice', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Add this to hide horizontal scrollbar */
@@ -23,7 +23,7 @@ h2 {
 
 .recipes {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.563em;
     list-style: none;
     color: lightsalmon;
     background-color: blanchedalmond;
