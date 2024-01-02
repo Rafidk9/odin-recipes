@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'WildHazelnut';
     src: url('Fonts/WildHazelnut/Wild Hazelnut.ttf')format('truetype');
-}
+} */
 
 body {
     font-family:'WildHazelnut','Bungee Spice', sans-serif;
@@ -54,4 +54,17 @@ h2 {
 #Gordonleft {
     left: 0;
     width: 30%;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#Lasagna{
+    width:200px;
+    height:auto;
 }
