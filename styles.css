@@ -4,10 +4,11 @@
 } */
 
 body {
-    font-family:'WildHazelnut','Bungee Spice', sans-serif;
+    font-family: 'WildHazelnut', 'Bungee Spice', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Add this to hide horizontal scrollbar */
+    overflow-x: hidden;
+    /* Add this to hide horizontal scrollbar */
 }
 
 h2 {
@@ -18,7 +19,20 @@ h2 {
     width: 100%;
     padding: 1em;
     border: 5px solid rgb(242, 76, 76);
-    box-sizing: border-box; /* Include padding and border in total width */
+    box-sizing: border-box;
+    /* Include padding and border in total width */
+}
+
+#title {
+    border: 5px solid blanchedalmond;
+    text-align: center;
+    background-color: coral;
+    border-width: 100%;
+}
+p{
+    text-align: center;
+    font: bold
+
 }
 
 .recipes {
@@ -29,7 +43,8 @@ h2 {
     background-color: blanchedalmond;
     border: 2px solid rgb(242, 76, 76);
     padding: 1em;
-    box-sizing: border-box; /* Include padding and border in total width */
+    box-sizing: border-box;
+    /* Include padding and border in total width */
 }
 
 #odinimg {
@@ -40,7 +55,8 @@ h2 {
     height: auto;
 }
 
-#Gordonright, #Gordonleft {
+#Gordonright,
+#Gordonleft {
     position: absolute;
     top: 0;
     margin: 5px;
@@ -56,15 +72,18 @@ h2 {
     width: 30%;
 }
 
-#logo{
-    width:80px;
+#logo {
+    width: 80px;
     height: auto;
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
 }
 
-.recipe-image{
-    width:200px;
-    height:auto;
+.recipe-image {
+    width: 200px;
+    height: auto;
+    margin-left: 500px;
+    width: 250px;
+    border: 10px solid blanchedalmond;
 }
